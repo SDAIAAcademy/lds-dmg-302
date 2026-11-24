@@ -1,158 +1,366 @@
 <section class="slide title" id="title" data-auto="title">
-  <aside class="notes">REPLACE: الترحيب، والتعريف بنفسك، وسؤال للقاعة يضبط الإيقاع، وإيقاع اليوم</aside>
+  <aside class="notes"><p>اليوم الأول خمس ساعات في القاعة: الجلسة 1 (مئة وعشرون دقيقة: خمس وأربعون للمفاهيم ونقطة التحقق، وخمس وسبعون للمختبر 1.1)، ثم الجلسة 2 بالتقسيم نفسه والمختبر 1.2، ثم الاختبار القصير المراقب ستين دقيقة دون ذكاء اصطناعي. وقبل اليوم ستون دقيقة من العمل التحضيري على خريطة الوثائق. الاستراحات بمفتاح B، وليست من الدقائق. ابدأ بسؤال واحد: من قرأ في عمله سياسة لا يعرف من يملكها؟</p></aside>
 </section>
 
-<section class="slide" id="agenda" data-auto="agenda"></section>
+<section class="slide" id="agenda" data-auto="agenda">
+  <aside class="notes"><p>جلستان اليوم، وبعدهما الاختبار القصير. قل من البداية إن المختبر الأول والاختبار دون ذكاء اصطناعي، وإن المختبر الثاني يسمح به مرشدًا فقط. هذا مستوى الكتالوج، لا تفضيل المدرب.</p></aside>
+</section>
+
+<section class="slide" id="setup-check">
+  <div class="kicker">قبل أن نبدأ</div>
+  <h2>ثلاثة أشياء مفتوحة على جهازك، وخريطتك مملوءة</h2>
+  <div class="cols cols-3">
+    <div class="card c-teal"><h4>الملفات</h4><p class="small mb0">صفحة المقرر، ومنها <span class="ltr">labs/files/</span>: الحالة، والوثائق الاثنتا عشرة، وملفات المختبرين.</p></div>
+    <div class="card c-cyan"><h4>الأدوات</h4><p class="small mb0">برنامج جداول، ومحرر نصوص يتتبع التغييرات. وأداة المختبر اختيارية إن كان Node.js على جهازك.</p></div>
+    <div class="card c-purple"><h4>العمل التحضيري</h4><p class="small mb0"><span class="ltr">document_map_template.csv</span> مملوءًا، وثلاث ملاحظات تأتي بها.</p></div>
+  </div>
+  <div class="callout note mt"><b>الأمر الذي يثبت الأداة.</b> <span class="ltr">node labs/tools/kit.mjs</span> يطبع قائمة الأوامر. من لا يملك Node.js يعمل بصيغ الجدول، ولا يخسر شيئًا.</div>
+  <aside class="notes"><p>دقيقتان. اطلب رفع الأيدي: من أكمل الخريطة؟ من لم يكملها يملأ أعمدة النوع وحدها أثناء الشريحة التالية، ويكمل الباقي في الاستراحة؛ الخريطة 5 من 100 وتُسلَّم مع ملفات المختبر 1.1. لا تعرض المرجع.</p></aside>
+</section>
 
 <!-- الجلسة 1 -->
 
-<section class="slide section" id="s1" data-auto="section" data-session="1"></section>
-
-<section class="slide" id="s1-idea">
-  <div class="kicker">REPLACE: السؤال الذي تجيب عنه الشريحة</div>
-  <h2>REPLACE: فكرة واحدة في جملة</h2>
-  <div class="cols cols-2">
-    <ul class="bullets">
-      <li>REPLACE: ست نقاط على الأكثر، كل منها فكرة تامة</li>
-      <li>REPLACE: أبرز العبارة الأساسية، والأرقام من تشغيل المختبر لا من الذاكرة</li>
-    </ul>
-    <div class="card c-teal"><h4>في دراسة الحالة</h4><p class="small mb0">REPLACE: اربط الفكرة بدراسة الحالة وبياناتها</p></div>
-  </div>
-  <div class="callout warn mt"><b>أين يقع الخطأ.</b> REPLACE: الخطأ الذي سيقع فيه المشاركون، وكيف يتعرفون عليه</div>
-  <aside class="notes">REPLACE: ما تقوله، والعرض الحي، والسؤال للقاعة، والخطأ الشائع وحلّه</aside>
+<section class="slide section" id="s1" data-auto="section" data-session="1">
+  <aside class="notes"><p>خمس وأربعون دقيقة قبل المختبر: عشر لخريطة الوثائق وهيكلها، وخمس عشرة لضبط الوثيقة وأنواعها، وسبع عشرة للغة الضوابط، وثلاث لنقطة التحقق. الناتجان الأول والثاني.</p></aside>
 </section>
 
-<section class="slide" id="s1-steps">
-  <div class="kicker">خطوة بخطوة</div>
-  <h2>REPLACE: عملية تظهر خطوة مع كل ضغطة</h2>
-  <div class="flow">
-    <div class="step c-teal"><b>1 · REPLACE: الاسم</b>REPLACE: ما يحدث أولًا</div>
-    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · REPLACE: الاسم</b>REPLACE: الجزء التالي</div>
-    <div class="arrow frag" data-frag="c">←</div><div class="step c-coral frag" data-frag="c"><b>3 · REPLACE: الاسم</b>REPLACE: النتيجة</div>
+<section class="slide" id="map-findings" data-lo="LO1">
+  <div class="kicker">ما وجدتموه في الخريطة</div>
+  <h2>اثنتا عشرة وثيقة، وثلثها ليس ما يقوله عنوانه</h2>
+  <div class="cols cols-4">
+    <div class="stat center"><div class="big">4</div><div class="lbl">وثائق نوعها بمحتواها غير نوعها المعلن</div></div>
+    <div class="stat center"><div class="big">3</div><div class="lbl">بلا تاريخ مراجعة سارٍ</div></div>
+    <div class="stat center"><div class="big">2</div><div class="lbl">تعارضان بين وثيقتين</div></div>
+    <div class="stat center"><div class="big">2</div><div class="lbl">فجوتان: إحالة إلى ما لا وجود له، وموضوع بلا معيار</div></div>
   </div>
-  <div class="callout tip mt frag"><b>الخلاصة.</b> REPLACE: الجملة التي تبقى في الذاكرة</div>
-  <aside class="notes">اضغط مرة لكل خطوة، وقل ما تضيفه كل خطوة قبل ظهور التالية. REPLACE: المثال الذي تشرحه</aside>
+  <div class="callout warn mt"><b>أين يقع الخطأ.</b> أن يُقرأ نوع الوثيقة من عنوانها. «سياسة» كل أفعالها «ينبغي» إرشاد، ولو اعتمدها مدير.</div>
+  <aside class="notes"><p>الأرقام من مفتاح الخريطة الذي يعيد حسابه <code>labs/solutions/check.mjs</code>: أربع وثائق نوعها غير المعلن، وثلاث بلا تاريخ مراجعة سارٍ مقارنة بتاريخ مراجعة المجموعة، وتعارضان، وفجوتان. اطلب من ثلاثة مشاركين ملاحظة واحدة كل منهم، ثم اعرض المفتاح <code>document_map_key.csv</code> و<code>findings_key.csv</code> بعد أن يتكلموا. هذا تغذية راجعة على العمل التحضيري، وقد سلمه المشاركون. ست دقائق.</p></aside>
+</section>
+
+<section class="slide" id="four-types" data-lo="LO1">
+  <div class="kicker">هيكل الوثائق</div>
+  <h2>أربعة أنواع، لكل منها سؤال يجيب عنه ومسار يعتمده</h2>
+  <table class="t small">
+    <tr><th>النوع</th><th>يجيب عن</th><th>يعتمده في مِذراة</th><th>المراجعة</th></tr>
+    <tr><td>سياسة</td><td>ماذا نلتزم به ولماذا</td><td>المدير العام بعد توصية اللجنة</td><td>كل 24 شهرًا</td></tr>
+    <tr><td>معيار</td><td>ما الحد الملزم القابل للقياس</td><td>لجنة إدارة البيانات</td><td>كل 12 شهرًا</td></tr>
+    <tr><td>إجراء</td><td>من يفعل ماذا وبأي ترتيب</td><td>مدير الوحدة المالكة</td><td>كل 12 شهرًا</td></tr>
+    <tr><td>إرشاد</td><td>ما الممارسة الموصى بها</td><td>رئيس مكتب إدارة البيانات</td><td>كل 24 شهرًا</td></tr>
+  </table>
+  <div class="callout note mt"><b>قاعدة المركز.</b> المسارات والمدد هنا قواعد مِذراة في الحالة. جهتك تكتب جدولها؛ المهم أن يكون للجدول وجود.</div>
+  <aside class="notes"><p>الفكرة: كل مستوى أسفل يتغير أسرع ويعتمده مستوى أدنى. السياسة لا تحتوي خطوات، والإجراء لا يضع مبادئ. اسأل: لماذا لا تعتمد اللجنة كل إجراء؟ لأن الإجراء يتغير كل مرة يتغير فيها نظام أو وحدة، ولو احتاج كل تغيير اللجنة لتجمد. أربع دقائق.</p></aside>
+</section>
+
+<section class="slide" id="type-by-content" data-lo="LO1">
+  <div class="kicker">النوع بالمحتوى</div>
+  <h2>اقرأ الأفعال والخطوات، لا العنوان</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li><b>«ينبغي» و«يُفضَّل» وحدها:</b> إرشاد مهما كان العنوان.</li>
+      <li><b>«يجب» مع مقياس:</b> معيار، ومساره اللجنة.</li>
+      <li><b>«الخطوة 1، الخطوة 2»:</b> إجراء، ومالكه الوحدة المنفذة.</li>
+      <li><b>نوعان في وثيقة:</b> افصلهما، فلكل نوع مسار ومدة مراجعة.</li>
+    </ul>
+    <div class="card c-teal"><h4>مثال من بنك البذور</h4><p class="small mb0">«سياسة حفظ البذور» فيها مبدأ واحد، ثم ثماني خطوات لتجفيف العينات. المبدأ سياسة؛ الخطوات إجراء يملكه أمين بنك البذور ويعدله دون انتظار المدير العام.</p></div>
+  </div>
+  <aside class="notes"><p>بنك البذور ليس في الوثائق الاثنتي عشرة، فالمثال لا يكشف شيئًا لم يُناقش. الوثيقة المختلطة ليست خطأ أخلاقيًا: هي وثيقة سيصعب تحديثها، لأن تعديل خطوة يجر معه اعتماد السياسة كلها. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="document-control" data-lo="LO1">
+  <div class="kicker">ضبط الوثيقة</div>
+  <h2>وثيقة بلا مالك أو إصدار أو تاريخ مراجعة لا يحاسَب عليها أحد</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li><b>المالك:</b> دور قائم. وحدة دُمجت تعني وثيقة بلا مالك.</li>
+      <li><b>الإصدار:</b> رقم يقول أي نسخة هي النافذة.</li>
+      <li><b>الاعتماد:</b> من اعتمد ومتى، وهل هو صاحب المسار.</li>
+      <li><b>المراجعة التالية:</b> تاريخ، وموجبات تفتحها قبله.</li>
+    </ul>
+    <div class="card c-cyan"><h4>في الضوابط الوطنية</h4><p class="small mb0">الضابط <span class="ltr">DG.8</span> «السجلات»، والمواصفة <span class="ltr">DG.8.3</span> «ضبط الإصدارات» لوثائق إدارة البيانات وسجلاتها. والضابط <span class="ltr">DG.2</span> «السياسات والقواعد الاسترشادية»: تحليل فجوات ثم سياسات خاصة بالجهة.</p></div>
+  </div>
+  <aside class="notes"><p>المرجع: ضوابط ومواصفات إدارة البيانات الوطنية وحوكمتها وحماية البيانات الشخصية، الإصدار 1.5، مجال حوكمة البيانات؛ قرأنا الضابطين DG.2 وDG.8 في النص العربي. الكتالوج يقول إن الضوابط «نموذج للضوابط» في هذا المقرر، أي نتعلم منها شكل الضابط. أما إلزامها لجهتك فيحدده نطاق تطبيقها الرسمي، لا هذه الشريحة. Sources: DataManagementPersonalDataProtectionStandardsAr.pdf. أربع دقائق.</p></aside>
+</section>
+
+<section class="slide" id="check-type" data-lo="LO1">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>ما نوع هذه الوثيقة بمحتواها؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO1">
+    <p class="lead">في جامعة افتراضية، وثيقة عنوانها «إرشادات أرشفة سجلات الطلاب» تقول: «يجب نقل ملف الطالب إلى الأرشيف خلال 30 يومًا من تخرجه، ويجب ألا تتجاوز نسبة الملفات المتأخرة 2% في كل فصل». اعتمدها مدير الأرشيف.</p>
+    <div class="opts">
+      <div class="opt" data-why="يأخذ النوع من العنوان، والأفعال ملزمة ولها مقاييس">إرشاد، فهذا عنوانها ومدير الأرشيف أصدرها</div>
+      <div class="opt" data-why="لا خطوات متتابعة فيها، بل حدود ملزمة">إجراء، لأنها تصف ما يفعله موظف الأرشيف</div>
+      <div class="opt" data-ok>معيار، ومساره اعتماد لجنة إدارة البيانات لا مدير الأرشيف</div>
+      <div class="opt" data-why="السياسة تقول ماذا تلتزم به الجهة ولماذا، لا عتبات بالأيام والنسب">سياسة، لأنها تفرض التزامًا على الجامعة كلها</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> «يجب» مع مدة ونسبة حد ملزم قابل للقياس، وهذا محتوى معيار؛ فمساره مسار المعيار.</div>
+  </div>
+  <aside class="notes"><p>الإجابة: معيار، والمسار خاطئ. هذا الخطأ نفسه في إحدى وثائق مِذراة، فلا تذكر أيها. دقيقتان.</p></aside>
+</section>
+
+<section class="slide" id="requirement-anatomy" data-lo="LO2">
+  <div class="kicker">لغة الضوابط</div>
+  <h2>المتطلب خمسة أجزاء، والتزام واحد</h2>
+  <div class="flow">
+    <div class="step c-teal"><b>1 · الفاعل</b>دور واحد من جدول الأدوار</div>
+    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · الفعل الملزم</b>يسجل، لا يجوز، يجب أن</div>
+    <div class="arrow frag" data-frag="c">←</div><div class="step c-purple frag" data-frag="c"><b>3 · الفعل نفسه</b>ما يُفعل بالضبط</div>
+    <div class="arrow frag" data-frag="d">←</div><div class="step c-coral frag" data-frag="d"><b>4 · المقياس</b>مدة أو تكرار أو عتبة</div>
+    <div class="arrow frag" data-frag="e">←</div><div class="step c-teal frag" data-frag="e"><b>5 · الدليل</b>ما يفحصه المدقق</div>
+  </div>
+  <div class="callout tip mt frag"><b>مثال من بنك البذور.</b> «يسجل أمين بنك البذور درجة حرارة كل غرفة تخزين مرتين في اليوم في سجل التخزين.»</div>
+  <aside class="notes"><p>اضغط مرة لكل جزء. في المثال: الفاعل أمين بنك البذور، والفعل يسجل، والشيء درجة حرارة كل غرفة، والمقياس مرتين في اليوم، والدليل سجل التخزين. ثم اسأل: كم التزامًا فيه؟ واحد. لو أضفنا «ويبلغ المدير بأي انحراف» صار اثنين، وكل منهما يُختبر وحده، فيُكتبان سطرين. أربع دقائق.</p></aside>
+</section>
+
+<section class="slide" id="normative-verbs" data-lo="LO2">
+  <div class="kicker">الأفعال المعيارية</div>
+  <h2>قوة الفعل جزء من المتطلب، لا أسلوب كتابة</h2>
+  <table class="t small">
+    <tr><th>القوة</th><th>بالعربية</th><th>مقابلها في مواصفات الإنترنت</th><th>أين تكتب</th></tr>
+    <tr><td>إلزام</td><td>يجب أن، يلتزم، فعل مضارع بفاعل محدد</td><td><span class="ltr">MUST, SHALL</span></td><td>المعيار والسياسة</td></tr>
+    <tr><td>منع</td><td>لا يجوز، لا يُدخل</td><td><span class="ltr">MUST NOT</span></td><td>المعيار والسياسة</td></tr>
+    <tr><td>توصية</td><td>يُوصى، ينبغي</td><td><span class="ltr">SHOULD</span></td><td>الإرشاد</td></tr>
+    <tr><td>إجازة</td><td>يجوز</td><td><span class="ltr">MAY</span></td><td>استثناء محدد فقط</td></tr>
+  </table>
+  <div class="callout warn mt"><b>أين يقع الخطأ.</b> «ينبغي» في معيار: المدقق لا يستطيع أن يكتب مخالفة لشيء موصى به.</div>
+  <aside class="notes"><p>العمود الثالث للمقارنة فقط: وثيقة RFC 2119 تعرّف الكلمات MUST وSHOULD وMAY في مواصفات الإنترنت، وهي مثال على أن مجتمعًا مهنيًا اتفق على قوة كل كلمة. نحن نكتب بالعربية، والقاعدة نفسها: قوة واحدة لكل كلمة في الوثيقة كلها. وفي قائمة التحقق هذا البند K3. Sources: rfc-editor.org/rfc/rfc2119. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="words-that-defeat-audit" data-lo="LO2">
+  <div class="kicker">الألفاظ التي تُفشل التدقيق</div>
+  <h2>إن لم يتفق مدققان على المخالفة، فلا متطلب</h2>
+  <table class="t small">
+    <tr><th>قبل</th><th>بعد</th></tr>
+    <tr><td>تُجدد شهادات الأجهزة <b>دوريًا</b></td><td>يجدد مدير المختبر شهادة معايرة كل جهاز قياس <b>كل اثني عشر شهرًا</b></td></tr>
+    <tr><td>يُرد على الموردين <b>في وقت معقول</b></td><td>يرد موظف المشتريات على كل استفسار مورد <b>خلال ثلاثة أيام عمل</b></td></tr>
+    <tr><td>تُتخذ <b>الإجراءات اللازمة</b> للتخزين</td><td>يحفظ أمين المستودع الأسمدة <b>في غرفة مقفلة لا يدخلها غير المصرح لهم</b></td></tr>
+  </table>
+  <div class="callout tip mt"><b>القائمة كاملة</b> في <span class="ltr">drafting_checklist.html</span>، البند K6.</div>
+  <aside class="notes"><p>الأمثلة الثلاثة من مختبر التربة والمشتريات والمستودع، لا من العبارات الخمس عشرة. الأرقام فيها توضيحية. لاحظ أن «بعد» لا تضيف كلمات زينة: تضيف فاعلًا ومقياسًا. اسأل: أي لفظ من هذا النوع في وثائق جهتكم؟ ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="owners-and-evidence" data-lo="LO2">
+  <div class="kicker">المالك والدليل</div>
+  <h2>المالك دور يُحاسَب، والدليل شيء يُفحص</h2>
+  <div class="cols cols-2">
+    <div class="card c-teal"><h4>المالك</h4><p class="small mb0">دور واحد من جدول الأدوار، لا «الجهة» ولا «الإدارات المعنية» ولا اسم شخص يغادر غدًا. ومن ينفذ المتطلب غير من يتحقق منه: فصل المهام.</p></div>
+    <div class="card c-cyan"><h4>الدليل</h4><p class="small mb0">سجل أو محضر أو تقرير أو إعداد في نظام، يراه المدقق دون أن يسأل المالك. «التزام الموظفين» ليس دليلًا؛ «الإقرار السنوي الموقع» دليل.</p></div>
+  </div>
+  <div class="callout warn mt"><b>أين يقع الخطأ.</b> المبني للمجهول: «تُصنَّف البيانات» يخفي الفاعل، فلا يُعرف من خالف.</div>
+  <aside class="notes"><p>فصل المهام في هذا المقرر قاعدة في كل إجابة مرجعية: من يصنف لا يراجع تصنيفه، ومن يطلب استثناءً لا يعتمده. وسياسة تصنيف البيانات تجعل فصل المهام مبدأً من مبادئها السبعة، وستراه في المختبر 1.2. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="term-base" data-lo="LO2">
+  <div class="kicker">الصياغة ثنائية اللغة</div>
+  <h2>مصطلح واحد لكل مفهوم، بالعربية والإنجليزية</h2>
+  <table class="t small">
+    <tr><th>المصطلح</th><th>بالإنجليزية</th><th>لا تكتب</th></tr>
+    <tr><td>صاحب البيانات</td><td><span class="ltr">Data Subject</span></td><td>مالك البيانات</td></tr>
+    <tr><td>ممثل بيانات الأعمال</td><td><span class="ltr">Business Data Executive</span></td><td>مالك البيانات</td></tr>
+    <tr><td>إتلاف</td><td><span class="ltr">Destruction</span></td><td>حذف</td></tr>
+    <tr><td>مقيد</td><td><span class="ltr">Restricted</span></td><td>محظور</td></tr>
+  </table>
+  <div class="callout note mt"><b>لماذا.</b> «مالك البيانات» قد تعني صاحب البيانات أو ممثل بيانات الأعمال؛ والمتطلب الذي يُقرأ بمعنيين يُنفَّذ بمعنيين.</div>
+  <aside class="notes"><p>قاعدة المصطلحات <code>term_base.csv</code> فيها ستة وعشرون مصطلحًا وعمود لما يُتجنب. «صاحب البيانات» و«جهة التحكم» من نظام حماية البيانات الشخصية، و«ممثل بيانات الأعمال» و«مختص بيانات الأعمال» من سياسة تصنيف البيانات، و«مقيد» من مستوياتها. حين تُترجم وثيقة، تُترجم بالقاعدة لا بأداة ترجمة حرة. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="check-rewrite" data-lo="LO2">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>أي صياغة تجتاز قائمة التحقق؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO2">
+    <p class="lead">في مستشفى افتراضي، العبارة الأصلية: «تُراجع صلاحيات الأنظمة دوريًا وتُلغى غير اللازمة». أربع صياغات مقترحة.</p>
+    <div class="opts">
+      <div class="opt" data-why="ما زالت فيها «دوريًا»، ولا فاعل ولا دليل">تُراجع صلاحيات الأنظمة دوريًا وفق الإجراءات المعتمدة</div>
+      <div class="opt" data-why="فيها التزامان في جملة واحدة، فلا يُعرف أيهما خولف">يراجع مدير الأنظمة الصلاحيات كل ربع سنة ويلغي غير المستخدم منها ويبلغ الإدارة</div>
+      <div class="opt" data-why="الفعل «ينبغي» توصية لا إلزام، والفاعل جمع غير محدد">ينبغي على مديري الأقسام مراجعة الصلاحيات كل ربع سنة</div>
+      <div class="opt" data-ok>يراجع مدير الأنظمة صلاحيات كل حساب مرة كل ربع سنة، ويسجل النتيجة في تقرير مراجعة الصلاحيات</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> فاعل واحد، وفعل ملزم واحد، ومقياس، ودليل؛ والإلغاء متطلب ثانٍ يُكتب في سطره.</div>
+  </div>
+  <aside class="notes"><p>الإجابة الرابعة. إن اختار كثيرون الثانية، فاسألهم: لو ألغى المدير الصلاحيات ولم يبلغ الإدارة، هل خالف المتطلب أم التزم به؟ لا جواب واحدًا، وهذا هو العيب. ثلاث دقائق.</p></aside>
 </section>
 
 <section class="slide lab" id="lab-1-1" data-auto="lab" data-lab="1.1">
-  <aside class="notes">REPLACE: ما تراقبه أثناء عمل المشاركين، والمشكلات المعتادة، والبديل لمن لم يُنهِ مختبرًا سابقًا</aside>
+  <aside class="notes"><p>خمس وسبعون دقيقة دون ذكاء اصطناعي. امشِ بين الطاولات في الخطوتين 2 و3 وابحث عن ثلاثة أخطاء: «الجهة» فاعلًا، ومدة مخترعة لطلبات أصحاب البيانات بدل الإحالة إلى اللائحة، وحل التعارض بين خمس سنوات وثلاث بقرار فردي. لا تعرض المرجع قبل الخطوة 5. من يتأخر يكمل W-01 إلى W-08 كاملة بدل خمس عشرة ناقصة. المختبر لا يعتمد على شيء قبله: العبارات في الملف.</p></aside>
+</section>
+
+<section class="slide" id="debrief-1-1" data-lo="LO2">
+  <div class="kicker">بعد المختبر 1.1</div>
+  <h2>خمس عشرة عبارة صارت تسعة عشر متطلبًا</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>ثلاث عبارات انقسمت: واحدة إلى ثلاثة متطلبات، واثنتان إلى متطلبين.</li>
+      <li>العيب الأكثر: لا فاعل ولا دليل.</li>
+      <li>أحالت المراجع إلى اللائحة حيث يحدد النص المدة.</li>
+    </ul>
+    <div class="card c-coral"><h4>التعارض لا يُحل في السطر</h4><p class="small mb0">المدة في معيار الاحتفاظ وسياسة الخصوصية مختلفة. المتطلب يحيل إلى جدول الاحتفاظ، والتعارض يُرفع إلى اللجنة.</p></div>
+  </div>
+  <aside class="notes"><p>الأرقام من المرجع <code>rewrite_reference.csv</code>، ويتحقق منها <code>labs/solutions/check.mjs 1.1</code>: تسعة عشر متطلبًا، كلها تجتاز الفحص الآلي. اعرض صياغة مشارك أو اثنين على الشاشة بعد إذنهما، وقارن بالمرجع. شريحة لما بعد المختبر، ثلاث دقائق من وقت الخطوة 5 أو من بداية الجلسة 2.</p></aside>
 </section>
 
 <!-- الجلسة 2 -->
 
-<section class="slide section" id="s2" data-auto="section" data-session="2"></section>
-
-<section class="slide" id="s2-idea">
-  <div class="kicker">REPLACE: السؤال الذي تجيب عنه الشريحة</div>
-  <h2>REPLACE: فكرة واحدة في جملة</h2>
-  <div class="cols cols-2">
-    <ul class="bullets">
-      <li>REPLACE: ست نقاط على الأكثر، كل منها فكرة تامة</li>
-      <li>REPLACE: أبرز العبارة الأساسية، والأرقام من تشغيل المختبر لا من الذاكرة</li>
-    </ul>
-    <div class="card c-teal"><h4>في دراسة الحالة</h4><p class="small mb0">REPLACE: اربط الفكرة بدراسة الحالة وبياناتها</p></div>
-  </div>
-  <div class="callout warn mt"><b>أين يقع الخطأ.</b> REPLACE: الخطأ الذي سيقع فيه المشاركون، وكيف يتعرفون عليه</div>
-  <aside class="notes">REPLACE: ما تقوله، والعرض الحي، والسؤال للقاعة، والخطأ الشائع وحلّه</aside>
+<section class="slide section" id="s2" data-auto="section" data-session="2">
+  <aside class="notes"><p>خمس وأربعون دقيقة قبل المختبر: اثنتا عشرة لقراءة الالتزام، وخمس عشرة للمصفوفة ونتائجها، وخمس عشرة لكتالوج الضوابط، وثلاث لنقطة التحقق. الناتج الثالث. الذكاء الاصطناعي في المختبر مرشد فقط.</p></aside>
 </section>
 
-<section class="slide" id="s2-steps">
-  <div class="kicker">خطوة بخطوة</div>
-  <h2>REPLACE: عملية تظهر خطوة مع كل ضغطة</h2>
-  <div class="flow">
-    <div class="step c-teal"><b>1 · REPLACE: الاسم</b>REPLACE: ما يحدث أولًا</div>
-    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · REPLACE: الاسم</b>REPLACE: الجزء التالي</div>
-    <div class="arrow frag" data-frag="c">←</div><div class="step c-coral frag" data-frag="c"><b>3 · REPLACE: الاسم</b>REPLACE: النتيجة</div>
+<section class="slide" id="reading-obligations" data-lo="LO3">
+  <div class="kicker">قراءة المرجع</div>
+  <h2>كل التزام في النص: من، وماذا، وبأي شرط</h2>
+  <div class="cols cols-2">
+    <div class="card c-teal"><h4>مثال: نظام حماية البيانات الشخصية، المادة الرابعة عشرة</h4><p class="small mb0">بصياغتنا: لا تعالج جهة التحكم البيانات الشخصية دون خطوات كافية للتحقق من دقتها واكتمالها وحداثتها وارتباطها بالغرض.</p></div>
+    <ul class="bullets">
+      <li><b>من:</b> جهة التحكم، أي مِذراة حين تجمع بيانات المزارعين.</li>
+      <li><b>ماذا:</b> التحقق قبل المعالجة.</li>
+      <li><b>بأي شرط:</b> أربعة عناصر، كل منها يُغطى.</li>
+    </ul>
   </div>
-  <div class="callout tip mt frag"><b>الخلاصة.</b> REPLACE: الجملة التي تبقى في الذاكرة</div>
-  <aside class="notes">اضغط مرة لكل خطوة، وقل ما تضيفه كل خطوة قبل ظهور التالية. REPLACE: المثال الذي تشرحه</aside>
+  <div class="callout warn mt"><b>أين يقع الخطأ.</b> نقل الفقرة كلها سطرًا في المصفوفة. الفقرة قد تحمل التزامين أو أربعة عناصر.</div>
+  <aside class="notes"><p>قرأنا المادة الرابعة عشرة في النص العربي للنظام المعدل بالمرسوم الملكي رقم (م/148)، والصياغة هنا صياغتنا لا النص. هذه المادة ليست في مقتطفات المختبر عمدًا، فالمثال لا يحل شيئًا منه. Sources: PersonalDataProtectionLawAr.pdf. أربع دقائق.</p></aside>
+</section>
+
+<section class="slide" id="matrix-two-directions" data-lo="LO3">
+  <div class="kicker">مصفوفة التتبع</div>
+  <h2>المصفوفة تُقرأ في الاتجاهين، ولكل اتجاه سؤال</h2>
+  <div class="cols cols-2">
+    <div class="card c-cyan"><h4>من الالتزام إلى المتطلب</h4><p class="small mb0">هل لكل التزام متطلب يغطيه؟ التزام بلا متطلب <b>مكشوف</b>: الجهة لا تفعل ما يلزمها.</p></div>
+    <div class="card c-purple"><h4>من المتطلب إلى المصدر</h4><p class="small mb0">هل لكل متطلب مصدر أو قرار مسجل؟ متطلب بلا مصدر <b>يتيم</b>: عبء لا يعرف أحد لماذا يُنفذ.</p></div>
+  </div>
+  <div class="callout tip mt"><b>الدليل في الكتالوج.</b> مصفوفة لا يبقى فيها مكشوف ولا يتيم، وهذا نص دليل الناتج الثالث.</div>
+  <aside class="notes"><p>اسأل: أيهما أخطر عند المدقق، المكشوف أم اليتيم؟ المكشوف مخالفة؛ واليتيم كلفة وتشتيت، وأحيانًا متطلب صحيح فقد مصدره فقط. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="coverage" data-lo="LO3">
+  <div class="kicker">التغطية</div>
+  <h2>«جزئية» تعني أن عنصرًا من الالتزام بلا متطلب</h2>
+  <table class="t small">
+    <tr><th>الالتزام (المادة 14)</th><th>المتطلب الداخلي</th><th>التغطية</th></tr>
+    <tr><td>الدقة والاكتمال</td><td>يفحص مختص البيانات القيم الناقصة قبل كل معالجة</td><td>كاملة</td></tr>
+    <tr><td>الحداثة</td><td>لا متطلب</td><td>ناقصة</td></tr>
+    <tr><td>الارتباط بالغرض</td><td>متطلب حقول النموذج المعتمدة</td><td>كاملة</td></tr>
+  </table>
+  <div class="callout warn mt"><b>النتيجة للالتزام كله: جزئية.</b> وفي الملاحظة: ما الذي ينقص، ومن يكتب المتطلب الناقص.</div>
+  <aside class="notes"><p>مثال توضيحي على المادة 14 نفسها، لا على مقتطفات المختبر. التغطية تُقدّر لكل عنصر ثم تُجمع للالتزام: عنصر واحد ناقص يجعلها جزئية. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="verify-citations" data-lo="LO3">
+  <div class="kicker">مصادر الكتالوج</div>
+  <h2>عمود المصدر في الكتالوج ادعاء يُفحص، لا حقيقة تُنسخ</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li>اقرأ نص المتطلب، ثم نص الالتزام، وقرر بنفسك.</li>
+      <li>مصدر خاطئ يُخفي شيئين: التزامًا يبدو مكشوفًا، وآخر يبدو مغطى مرتين.</li>
+      <li>صحح المصدر في الكتالوج، واكتب التصحيح في سجل الإصدارات.</li>
+    </ul>
+    <div class="card c-coral"><h4>في جهتك</h4><p class="small mb0">كتالوجات الضوابط تُبنى بالنسخ من مصفوفات سابقة. خطأ مصدر واحد يعيش سنوات.</p></div>
+  </div>
+  <aside class="notes"><p>لا تقل أي متطلب في كتالوج مِذراة مصدره خاطئ: هذا ما يجده المشاركون في الخطوة 3. قل فقط إن فيه خطأً واحدًا على الأقل. دقيقتان.</p></aside>
+</section>
+
+<section class="slide" id="orphan-decisions" data-lo="LO3">
+  <div class="kicker">المتطلب اليتيم</div>
+  <h2>لليتيم ثلاثة مصائر، وكلها تُكتب</h2>
+  <div class="flow">
+    <div class="step c-teal"><b>1 · مصدر وُجد</b>خارج نطاق المصفوفة: يُسجل</div>
+    <div class="arrow">←</div><div class="step c-cyan"><b>2 · قرار للجنة</b>قاعدة للجهة: يُسجل رقم القرار</div>
+    <div class="arrow">←</div><div class="step c-coral"><b>3 · لا هذا ولا ذاك</b>يُلغى، ويُكتب سبب الإلغاء</div>
+  </div>
+  <div class="callout note mt"><b>مثال من المشتريات.</b> «يُطبع كل أمر شراء على ورق رسمي» بلا مصدر ولا قرار، ونظام المشتريات إلكتروني: يُلغى.</div>
+  <aside class="notes"><p>المثال من المشتريات لا من الكتالوج. أكد أن الإلغاء قرار له صاحب: رئيس مكتب إدارة البيانات يقترح، واللجنة تعتمد، لأن المتطلب اعتُمد بمسار ولا يسقط إلا بمسار. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="catalogue-fields" data-lo="LO3">
+  <div class="kicker">كتالوج الضوابط</div>
+  <h2>الضوابط الوطنية تعطيك شكل الكتالوج: مجال وضابط ومواصفة وأولوية</h2>
+  <table class="t small">
+    <tr><th>في الضوابط الوطنية</th><th>مثال</th><th>عمود في جدول مِذراة</th></tr>
+    <tr><td>اسم المجال ورقمه</td><td>حوكمة البيانات، <span class="ltr">DG</span></td><td><span class="ltr">domain</span></td></tr>
+    <tr><td>اسم الضابط ورقمه</td><td>السياسات والقواعد الاسترشادية، <span class="ltr">DG.2</span></td><td><span class="ltr">title</span></td></tr>
+    <tr><td>المواصفة</td><td><span class="ltr">DG.2.1</span> تحليل الفجوات</td><td><span class="ltr">statement</span></td></tr>
+    <tr><td>الأولوية</td><td>أولوية 1</td><td><span class="ltr">priority</span></td></tr>
+  </table>
+  <div class="callout tip mt"><b>وما تضيفه الجهة:</b> المالك، والدليل، والمصدر. بها يصير الجدول قابلًا للتدقيق.</div>
+  <aside class="notes"><p>الحقول قرأناها في جداول النص العربي: اسم المجال، ورقم تعريف المجال، واسم الضابط، ورقم تعريف الضابط، ووصف الضابط، ورقم المواصفة، واسم المواصفة، والأولوية. هذا معنى «نموذجًا للضوابط» في الكتالوج. Sources: DataManagementPersonalDataProtectionStandardsAr.pdf، الصفحات 19 إلى 21. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="oscal" data-lo="LO3">
+  <div class="kicker">كتالوج يقرؤه البرنامج</div>
+  <h2>OSCAL يكتب الكتالوج بنية ثابتة تتبادلها الأدوات</h2>
+  <div class="cols cols-2">
+    <ul class="bullets">
+      <li><b><span class="ltr">metadata</span>:</b> العنوان والإصدار وتاريخ آخر تعديل.</li>
+      <li><b><span class="ltr">groups</span> و<span class="ltr">controls</span>:</b> الضوابط مجمعة، ولكل ضابط نص وخصائص وروابط.</li>
+      <li><b><span class="ltr">back-matter</span>:</b> المراجع التي تشير إليها الروابط.</li>
+    </ul>
+    <div class="card c-purple"><h4>لماذا يهم القائد</h4><p class="small mb0">حين يُحدَّث مرجع، تجد الأداة كل ضابط يشير إليه في ثوانٍ، بدل أن يبحث أحد في عشرين وثيقة.</p></div>
+  </div>
+  <div class="callout note mt"><b>جدول مهيكل يكفي للبداية.</b> الكتالوج قابل للقراءة آليًا حين تكون أعمدته ثابتة ومعرّفاته فريدة.</div>
+  <aside class="notes"><p>نموذج الكتالوج في OSCAL من صفحة NIST الرسمية: البيانات الوصفية، والمعاملات، والضوابط، والمجموعات، والملحق. الإصدار الحالي في مستودع OSCAL الرسمي هو 1.2.3 (أغسطس 2026)، وهذا معلومة تتقادم. أداة المختبر تكتب ملفًا مستوحى من هذه البنية، لم يُتحقق منه بمخطط OSCAL. Sources: pages.nist.gov/OSCAL. ثلاث دقائق.</p></aside>
+</section>
+
+<section class="slide" id="check-trace" data-lo="LO3">
+  <div class="kicker">نقطة تحقق</div>
+  <h2>ماذا تكتب في المصفوفة؟</h2>
+  <div class="quiz" data-type="single" data-lo="LO3">
+    <p class="lead">في هيئة نقل افتراضية، الالتزام «تُعدّ الجهة جدولًا لمدد الاحتفاظ وتراجعه سنويًا». الكتالوج فيه متطلب «يعدّ مدير الوثائق جدول الاحتفاظ»، ولا متطلب يذكر المراجعة.</p>
+    <div class="opts">
+      <div class="opt" data-ok>تغطية جزئية، وملاحظة بأن المراجعة السنوية بلا متطلب ولا مالك</div>
+      <div class="opt" data-why="يعطي التغطية لأن العنوان متشابه، والمراجعة عنصر لا متطلب له">تغطية كاملة، فالمتطلب يتحدث عن جدول الاحتفاظ نفسه</div>
+      <div class="opt" data-why="الإعداد مغطى فعلًا، فالالتزام ليس بلا تغطية">لا تغطية، فالمتطلب لا يطابق نص الالتزام حرفيًا</div>
+      <div class="opt" data-why="يجعل المصفوفة مكانًا لإضافة ما ليس في المرجع">تغطية كاملة بعد إضافة متطلب ثالث عن الإتلاف</div>
+    </div>
+    <div class="callout tip why"><b>لماذا.</b> الالتزام عنصران، الإعداد والمراجعة؛ غطي الأول وحده، فالتغطية جزئية وتُكتب الفجوة.</div>
+  </div>
+  <aside class="notes"><p>الإجابة الأولى. الهيئة ومتطلباتها مثال، لا علاقة لها بكتالوج مِذراة. ثلاث دقائق.</p></aside>
 </section>
 
 <section class="slide lab" id="lab-1-2" data-auto="lab" data-lab="1.2">
-  <aside class="notes">REPLACE: ما تراقبه أثناء عمل المشاركين، والمشكلات المعتادة، والبديل لمن لم يُنهِ مختبرًا سابقًا</aside>
+  <aside class="notes"><p>خمس وسبعون دقيقة، والذكاء الاصطناعي مرشد: يشرح ولا يبني المصفوفة. المختبر يبدأ من ملفات <code>labs/files/d1_2/</code> وحدها ولا يحتاج المختبر 1.1. شغّل أداة الفحص على الشاشة في الخطوة 4 لمن لا يملك Node.js. راقب ثلاثة أخطاء: نسخ عمود cited_sources، وعد الالتزام الجزئي كاملًا، وإلغاء متطلب يتيم دون أن يُسأل عن مصدر خارج المراجع الثلاثة. لا تعرض المرجع قبل الخطوة 5.</p></aside>
 </section>
 
-<!-- الجلسة 3 -->
+<section class="slide" id="debrief-1-2" data-lo="LO3">
+  <div class="kicker">بعد المختبر 1.2</div>
+  <h2>تسعة عشر التزامًا: خمسة عشر مغطاة، وواحد جزئي، وثلاثة مكشوفة</h2>
+  <div class="bars">
+    <div class="row"><span>كاملة</span><div class="bar c-teal" style="--w:79%"></div><span class="val">15</span></div>
+    <div class="row"><span>جزئية</span><div class="bar c-cyan" style="--w:5%"></div><span class="val">1</span></div>
+    <div class="row"><span>مكشوفة</span><div class="bar c-coral" style="--w:16%"></div><span class="val">3</span></div>
+  </div>
+  <div class="callout warn mt"><b>والمصدر الخاطئ الواحد</b> جعل التزامًا يبدو مكشوفًا عند من نسخ العمود. وثلاثة متطلبات بلا مصدر.</div>
+  <aside class="notes"><p>الأرقام من تشغيل <code>labs/solutions/check.mjs 1.2</code> على المرجع: 15 كاملة، و1 جزئية (A-2)، و3 مكشوفة (A-7 وB-6 وC-4)، و3 يتامى (R-18 وR-19 وR-20)، وخطأ مصدر واحد (R-05). اطلب من مجموعتين قراءة متطلب جديد كتبتاه، والقاعة تفحصه بالقائمة. بعد المختبر، دقيقتان.</p></aside>
+</section>
 
-<section class="slide section" id="s3" data-auto="section" data-session="3"></section>
-
-<section class="slide" id="s3-idea">
-  <div class="kicker">REPLACE: السؤال الذي تجيب عنه الشريحة</div>
-  <h2>REPLACE: فكرة واحدة في جملة</h2>
+<section class="slide" id="supervised-check" data-lo="LO2">
+  <div class="kicker">الاختبار القصير المراقب</div>
+  <h2>ستون دقيقة الآن، دون ذكاء اصطناعي ودون ملفات المختبرات</h2>
   <div class="cols cols-2">
     <ul class="bullets">
-      <li>REPLACE: ست نقاط على الأكثر، كل منها فكرة تامة</li>
-      <li>REPLACE: أبرز العبارة الأساسية، والأرقام من تشغيل المختبر لا من الذاكرة</li>
+      <li>عبارات ضعيفة جديدة من جهة أخرى، تعيد صياغتها متطلبات.</li>
+      <li>معك قائمة التحقق وقاعدة المصطلحات مطبوعتين، ولا شيء غيرهما.</li>
+      <li>الأجهزة مغلقة، والأوراق تُسلَّم للمدرب.</li>
     </ul>
-    <div class="card c-teal"><h4>في دراسة الحالة</h4><p class="small mb0">REPLACE: اربط الفكرة بدراسة الحالة وبياناتها</p></div>
+    <div class="card c-coral"><h4>الوزن</h4><p class="small mb0">25% من درجة المقرر، ويلزم 60% فيه للنجاح، مع 70% إجمالًا.</p></div>
   </div>
-  <div class="callout warn mt"><b>أين يقع الخطأ.</b> REPLACE: الخطأ الذي سيقع فيه المشاركون، وكيف يتعرفون عليه</div>
-  <aside class="notes">REPLACE: ما تقوله، والعرض الحي، والسؤال للقاعة، والخطأ الشائع وحلّه</aside>
-</section>
-
-<section class="slide" id="s3-steps">
-  <div class="kicker">خطوة بخطوة</div>
-  <h2>REPLACE: عملية تظهر خطوة مع كل ضغطة</h2>
-  <div class="flow">
-    <div class="step c-teal"><b>1 · REPLACE: الاسم</b>REPLACE: ما يحدث أولًا</div>
-    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · REPLACE: الاسم</b>REPLACE: الجزء التالي</div>
-    <div class="arrow frag" data-frag="c">←</div><div class="step c-coral frag" data-frag="c"><b>3 · REPLACE: الاسم</b>REPLACE: النتيجة</div>
-  </div>
-  <div class="callout tip mt frag"><b>الخلاصة.</b> REPLACE: الجملة التي تبقى في الذاكرة</div>
-  <aside class="notes">اضغط مرة لكل خطوة، وقل ما تضيفه كل خطوة قبل ظهور التالية. REPLACE: المثال الذي تشرحه</aside>
-</section>
-
-<section class="slide lab" id="lab-1-3" data-auto="lab" data-lab="1.3">
-  <aside class="notes">REPLACE: ما تراقبه أثناء عمل المشاركين، والمشكلات المعتادة، والبديل لمن لم يُنهِ مختبرًا سابقًا</aside>
-</section>
-
-<!-- الجلسة 4 -->
-
-<section class="slide section" id="s4" data-auto="section" data-session="4"></section>
-
-<section class="slide" id="s4-idea">
-  <div class="kicker">REPLACE: السؤال الذي تجيب عنه الشريحة</div>
-  <h2>REPLACE: فكرة واحدة في جملة</h2>
-  <div class="cols cols-2">
-    <ul class="bullets">
-      <li>REPLACE: ست نقاط على الأكثر، كل منها فكرة تامة</li>
-      <li>REPLACE: أبرز العبارة الأساسية، والأرقام من تشغيل المختبر لا من الذاكرة</li>
-    </ul>
-    <div class="card c-teal"><h4>في دراسة الحالة</h4><p class="small mb0">REPLACE: اربط الفكرة بدراسة الحالة وبياناتها</p></div>
-  </div>
-  <div class="callout warn mt"><b>أين يقع الخطأ.</b> REPLACE: الخطأ الذي سيقع فيه المشاركون، وكيف يتعرفون عليه</div>
-  <aside class="notes">REPLACE: ما تقوله، والعرض الحي، والسؤال للقاعة، والخطأ الشائع وحلّه</aside>
-</section>
-
-<section class="slide" id="s4-steps">
-  <div class="kicker">خطوة بخطوة</div>
-  <h2>REPLACE: عملية تظهر خطوة مع كل ضغطة</h2>
-  <div class="flow">
-    <div class="step c-teal"><b>1 · REPLACE: الاسم</b>REPLACE: ما يحدث أولًا</div>
-    <div class="arrow frag" data-frag="b">←</div><div class="step c-cyan frag" data-frag="b"><b>2 · REPLACE: الاسم</b>REPLACE: الجزء التالي</div>
-    <div class="arrow frag" data-frag="c">←</div><div class="step c-coral frag" data-frag="c"><b>3 · REPLACE: الاسم</b>REPLACE: النتيجة</div>
-  </div>
-  <div class="callout tip mt frag"><b>الخلاصة.</b> REPLACE: الجملة التي تبقى في الذاكرة</div>
-  <aside class="notes">اضغط مرة لكل خطوة، وقل ما تضيفه كل خطوة قبل ظهور التالية. REPLACE: المثال الذي تشرحه</aside>
-</section>
-
-<section class="slide lab" id="lab-1-4" data-auto="lab" data-lab="1.4">
-  <aside class="notes">REPLACE: ما تراقبه أثناء عمل المشاركين، والمشكلات المعتادة، والبديل لمن لم يُنهِ مختبرًا سابقًا</aside>
+  <aside class="notes"><p>أوراق الاختبار ومفتاحه ليست في المستودع؛ تُكتب بمهارة التقييم وتبقى خاصة. وزع قائمة التحقق وقاعدة المصطلحات مطبوعتين، واجمع الأجهزة أو أغلقها. ستون دقيقة: خمس للتعليمات، وخمسون للعمل، وخمس للجمع. الأصالة في الكتالوج: «اختبار قصير مراقب».</p></aside>
 </section>
 
 <section class="slide" id="wrap-up">
-  <div class="kicker">خلاصة اليوم 1</div>
+  <div class="kicker">خلاصة اليوم</div>
   <h2>ثلاثة أمور تبقى معك</h2>
   <div class="cols cols-3">
-    <div class="card c-teal"><h4>تذكّر</h4><p class="small mb0">REPLACE: فكرة يحتفظ بها المشاركون</p></div>
-    <div class="card c-coral"><h4>تذكّر</h4><p class="small mb0">REPLACE: فكرة يحتفظ بها المشاركون</p></div>
-    <div class="card c-purple"><h4>تذكّر</h4><p class="small mb0">REPLACE: فكرة يحتفظ بها المشاركون</p></div>
+    <div class="card c-teal"><h4>النوع بالمحتوى</h4><p class="small mb0">أفعال الوثيقة وخطواتها تقول نوعها، والنوع يقول مسارها.</p></div>
+    <div class="card c-cyan"><h4>التزام واحد</h4><p class="small mb0">فاعل، وفعل ملزم، ومقياس، ودليل. ولا لفظ يُفشل التدقيق.</p></div>
+    <div class="card c-purple"><h4>في الاتجاهين</h4><p class="small mb0">لا التزام مكشوف، ولا متطلب يتيم، والمصدر يُفحص لا يُنسخ.</p></div>
   </div>
+  <aside class="notes"><p>تُعرض قبل الاختبار القصير، دقيقة واحدة. اسأل مشاركًا واحدًا: ما أول عبارة ستعيد صياغتها في جهتك؟</p></aside>
 </section>
 
-<section class="slide dark" id="next" data-label="التالي">
-  <div class="kicker">التالي</div>
-  <h2>اليوم 2: REPLACE: موضوع هذه الوحدة في كلمات قليلة</h2>
-  <p class="lead">REPLACE: ما يجهزه المشاركون قبل ذلك، والمختبرات غير المكتملة يمكن إكمالها في المنزل</p>
-  <aside class="notes">REPLACE: الحسابات أو التثبيتات أو القراءة التي يحتاجها المشاركون قبل الوحدة التالية</aside>
+<section class="slide dark" id="next" data-label="ما التالي">
+  <div class="kicker">غدًا</div>
+  <h2>معيار الذكاء الاصطناعي التوليدي لموظفي مِذراة</h2>
+  <ul class="bullets">
+    <li>اقرأ التعميم <span class="ltr">DOC-11</span> مرة أخرى: ما الذي ينقصه ليصير معيارًا؟</li>
+    <li>افتح <span class="ltr">source_pack.html</span> في <span class="ltr">labs/files/d2_1/</span> واقرأ المصدرين الأولين.</li>
+    <li>غدًا ذكاء اصطناعي كامل في الصياغة: جهّز مساعدًا معتمدًا لك إن أردت.</li>
+  </ul>
+  <aside class="notes"><p>ذكّر بأن المختبر 2.1 يسمح بمساعد، وأن ملفات المختبر وحدها تُدخل فيه لأنها اصطناعية ومصنفة «عام». من لا يملك مساعدًا يبدأ من مسودة مرفقة.</p></aside>
 </section>
