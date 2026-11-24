@@ -1,0 +1,27 @@
+﻿ar,en,avoid
+سياسة,Policy,
+معيار,Standard,مقياس
+إجراء,Procedure,آلية
+إرشاد,Guideline,دليل استرشادي
+متطلب,Requirement,شرط
+التزام,Obligation,
+ضابط,Control,
+دليل امتثال,Evidence of compliance,إثبات
+مالك المتطلب,Requirement owner,المسؤول
+استثناء,Exception,إعفاء
+ضابط تعويضي,Compensating control,
+موجب المراجعة,Review trigger,سبب المراجعة
+مصفوفة التتبع,Traceability matrix,جدول الربط
+تصنيف البيانات,Data classification,
+عام,Public,مفتوح
+مقيد,Restricted,محظور
+سري,Secret,سري جدًا
+سري للغاية,Top Secret,
+جهة التحكم,Controller,المتحكم
+صاحب البيانات,Data Subject,مالك البيانات
+إتلاف,Destruction,حذف
+ممثل بيانات الأعمال,Business Data Executive,مالك البيانات
+مختص بيانات الأعمال,Business Data Steward,مشرف البيانات
+سجل البيانات,Data register,
+الذكاء الاصطناعي التوليدي,Generative AI,
+الإشراف البشري,Human oversight,المراقبة اليدوية

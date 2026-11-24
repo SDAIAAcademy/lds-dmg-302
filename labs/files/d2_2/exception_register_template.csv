@@ -1,0 +1,4 @@
+﻿exception_id,requester,requirement,decision,reason,compensating_controls,expiry_days,review_triggers,assessor,approver,status_after_change
+X-01,مدير المحطات البحثية,AI-01 وAI-02,,,,,,,,
+X-02,مدير الاتصال المؤسسي,AI-04,,,,,,,,
+X-03,مدير الإرشاد الزراعي,AI-07,,,,,,,,

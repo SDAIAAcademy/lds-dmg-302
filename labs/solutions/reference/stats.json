@@ -1,0 +1,22 @@
+{
+  "documents": 12,
+  "findings": 13,
+  "weak_statements": 15,
+  "reference_requirements": 19,
+  "obligations": 19,
+  "catalogue": 20,
+  "covered_full": 15,
+  "covered_partial": 1,
+  "uncovered": 3,
+  "orphans": 3,
+  "wrong_citations": 1,
+  "references_in_draft": 8,
+  "references_correct": 3,
+  "references_invented": 3,
+  "references_misrepresented": 2,
+  "comments": 12,
+  "accepted": 4,
+  "accepted_with_change": 6,
+  "rejected": 2,
+  "exceptions": 3
+}

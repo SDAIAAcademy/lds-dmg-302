@@ -1,0 +1,31 @@
+# صياغة سياسات البيانات والذكاء الاصطناعي ومعاييرهما
+
+> تحوّل العبارات المبهمة إلى متطلبات لكل منها التزام واحد ومالك ودليل، وتتبعها حتى مصادرها، ثم تصوغ معيارًا لاستخدام الذكاء الاصطناعي التوليدي وتطرحه للتشاور وتدافع عنه أمام لجنة. مقرر من أكاديمية سدايا، الرمز LDS-DMG-302، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/lds-dmg-302/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/lds-dmg-302/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/lds-dmg-302/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 11,167 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/lds-dmg-302/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: من النص الضعيف إلى المتطلب المتتبَّع](https://sdaiaacademy.github.io/lds-dmg-302/slides/day1.md): بعد العمل التحضيري على خريطة الوثائق: تعيد صياغة خمس عشرة عبارة، وتتبع ثلاثة مراجع وطنية حتى متطلبات مِذراة، ثم الاختبار القصير المراقب؛ الجلسات: هيكل الوثائق ولغة الضوابط، من المصدر إلى الضابط؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/slides/day1.html؛ نحو 4,927 من الوحدات النصية
+- [اليوم 2: معيار الذكاء الاصطناعي التوليدي: صياغة وتشاور وتحديث](https://sdaiaacademy.github.io/lds-dmg-302/slides/day2.md): تصوغ معيار استخدام الذكاء الاصطناعي التوليدي لموظفي مِذراة وتتحقق من كل مرجع فيه، ثم تديره في جولة تشاور وتبت في ثلاثة استثناءات وتغيير نظامي، قبل اللجنة الصورية؛ الجلسات: أحكام الذكاء الاصطناعي في المعيار، التشاور والاستثناءات والمراجعة؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/slides/day2.html؛ نحو 4,209 من الوحدات النصية
+- [المشروع الختامي: اللجنة الصورية](https://sdaiaacademy.github.io/lds-dmg-302/slides/capstone.md): تعرض معيارك ومصفوفة تتبعه وسجل ملاحظاته أمام لجنة إدارة البيانات في مِذراة، فتعترض اللجنة على متطلبين، وتعدّل أحدهما أمامها؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/slides/capstone.html؛ نحو 1,399 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: إعادة صياغة خمس عشرة عبارة ضعيفة](https://sdaiaacademy.github.io/lds-dmg-302/labs/D1_1_rewrite.md): اليوم 1، الجلسة 1، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/labs/D1_1_rewrite.html
+- [المختبر 1.2: تتبع ثلاثة أنظمة وسياسات حتى الضوابط الداخلية](https://sdaiaacademy.github.io/lds-dmg-302/labs/D1_2_trace.md): اليوم 1، الجلسة 2، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/labs/D1_2_trace.html
+- [المختبر 2.1: صياغة معيار استخدام الذكاء الاصطناعي مع مساعد](https://sdaiaacademy.github.io/lds-dmg-302/labs/D2_1_ai_standard.md): اليوم 2، الجلسة 1، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/labs/D2_1_ai_standard.html
+- [المختبر 2.2: إجراء جولة تشاور والبت في ثلاثة استثناءات](https://sdaiaacademy.github.io/lds-dmg-302/labs/D2_2_consultation.md): اليوم 2، الجلسة 2، 75 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-dmg-302/labs/D2_2_consultation.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/lds-dmg-302/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 11,167 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/lds-dmg-302/context/day1.md): اليوم 1، نحو 4,927 من الوحدات النصية
+- [context/day2.md](https://sdaiaacademy.github.io/lds-dmg-302/context/day2.md): اليوم 2، نحو 4,209 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/lds-dmg-302/context/capstone.md): المشروع الختامي، نحو 1,399 من الوحدات النصية

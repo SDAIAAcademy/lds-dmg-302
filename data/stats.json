@@ -1,0 +1,519 @@
+{
+  "v": 1,
+  "engine": "1.0.0",
+  "build": {
+    "at": "2026-11-24T22:27:54Z",
+    "version": "2027.1.0",
+    "commit": "3282f55"
+  },
+  "lang": "ar",
+  "dir": "rtl",
+  "totals": {
+    "decks": 3,
+    "slides": 71,
+    "words": 4148,
+    "notes": 70,
+    "notes_ratio": 0.99,
+    "activities": 6,
+    "styles": 7,
+    "slide_minutes": null,
+    "components": {
+      "cards": 48,
+      "pills": 0,
+      "callouts": 38,
+      "tables": 14,
+      "code": 0,
+      "tokens": 0,
+      "flows": 6,
+      "stats": 7,
+      "bars": 2,
+      "meters": 0,
+      "agendas": 2,
+      "quizzes": 6,
+      "checklists": 4,
+      "prompts": 0,
+      "chats": 0,
+      "tools": 0,
+      "traces": 0,
+      "ladders": 0,
+      "figures": 0,
+      "matrices": 0,
+      "timers": 2,
+      "columns": 30,
+      "images": 0,
+      "drawings": 0,
+      "fragments": 18
+    },
+    "minutes": 480
+  },
+  "decks": [
+    {
+      "deck": "day1",
+      "kind": "day",
+      "label": "اليوم 1",
+      "title": "من النص الضعيف إلى المتطلب المتتبَّع",
+      "slides": 31,
+      "words": 1961,
+      "notes": 31,
+      "notes_ratio": 1,
+      "activities": 3,
+      "styles": 3,
+      "slide_minutes": null,
+      "components": {
+        "cards": 17,
+        "pills": 0,
+        "callouts": 18,
+        "tables": 6,
+        "code": 0,
+        "tokens": 0,
+        "flows": 2,
+        "stats": 4,
+        "bars": 1,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 3,
+        "checklists": 2,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 0,
+        "columns": 14,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 9
+      },
+      "minutes": 240,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "هيكل الوثائق ولغة الضوابط",
+          "slides": 14,
+          "words": 976,
+          "notes": 14,
+          "notes_ratio": 1,
+          "activities": 2,
+          "styles": 0,
+          "slide_minutes": null,
+          "components": {
+            "cards": 5,
+            "pills": 0,
+            "callouts": 9,
+            "tables": 4,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 4,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 2,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 6,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 9
+          },
+          "minutes": 120,
+          "lab_minutes": 75
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "من المصدر إلى الضابط",
+          "slides": 14,
+          "words": 802,
+          "notes": 14,
+          "notes_ratio": 1,
+          "activities": 1,
+          "styles": 3,
+          "slide_minutes": null,
+          "components": {
+            "cards": 9,
+            "pills": 0,
+            "callouts": 8,
+            "tables": 2,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 0,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 7,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 120,
+          "lab_minutes": 75
+        }
+      ]
+    },
+    {
+      "deck": "day2",
+      "kind": "day",
+      "label": "اليوم 2",
+      "title": "معيار الذكاء الاصطناعي التوليدي: صياغة وتشاور وتحديث",
+      "slides": 28,
+      "words": 1704,
+      "notes": 28,
+      "notes_ratio": 1,
+      "activities": 3,
+      "styles": 4,
+      "slide_minutes": null,
+      "components": {
+        "cards": 23,
+        "pills": 0,
+        "callouts": 16,
+        "tables": 5,
+        "code": 0,
+        "tokens": 0,
+        "flows": 3,
+        "stats": 3,
+        "bars": 1,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 3,
+        "checklists": 2,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 0,
+        "columns": 12,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 9
+      },
+      "minutes": 240,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "أحكام الذكاء الاصطناعي في المعيار",
+          "slides": 12,
+          "words": 765,
+          "notes": 12,
+          "notes_ratio": 1,
+          "activities": 1,
+          "styles": 4,
+          "slide_minutes": null,
+          "components": {
+            "cards": 8,
+            "pills": 0,
+            "callouts": 8,
+            "tables": 4,
+            "code": 0,
+            "tokens": 0,
+            "flows": 2,
+            "stats": 0,
+            "bars": 1,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 4,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 9
+          },
+          "minutes": 120,
+          "lab_minutes": 75
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "التشاور والاستثناءات والمراجعة",
+          "slides": 13,
+          "words": 732,
+          "notes": 13,
+          "notes_ratio": 1,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": null,
+          "components": {
+            "cards": 15,
+            "pills": 0,
+            "callouts": 7,
+            "tables": 1,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 3,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 8,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 120,
+          "lab_minutes": 75
+        }
+      ]
+    },
+    {
+      "deck": "capstone",
+      "kind": "capstone",
+      "label": "المشروع الختامي",
+      "title": "اللجنة الصورية",
+      "slides": 12,
+      "words": 483,
+      "notes": 11,
+      "notes_ratio": 0.92,
+      "activities": 0,
+      "styles": 0,
+      "slide_minutes": null,
+      "components": {
+        "cards": 8,
+        "pills": 0,
+        "callouts": 4,
+        "tables": 3,
+        "code": 0,
+        "tokens": 0,
+        "flows": 1,
+        "stats": 0,
+        "bars": 0,
+        "meters": 0,
+        "agendas": 0,
+        "quizzes": 0,
+        "checklists": 0,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 2,
+        "columns": 4,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 0
+      },
+      "minutes": null,
+      "sessions": []
+    }
+  ],
+  "coverage": [
+    {
+      "id": "LO1",
+      "text": "يصنف العبارات إلى سياسة أو معيار أو إجراء أو إرشاد، ويسجل الفجوات والتعارضات، على اثنتي عشرة وثيقة حوكمة اصطناعية",
+      "level": "Applied",
+      "slides": [
+        "day1#map-findings",
+        "day1#four-types",
+        "day1#type-by-content",
+        "day1#document-control",
+        "day1#check-type"
+      ],
+      "activities": [
+        "day1#check-type-q1"
+      ],
+      "sessions": [
+        "day1/1"
+      ],
+      "labs": [
+        "1.1"
+      ],
+      "questions": [
+        "q-dmg302-01",
+        "q-dmg302-02",
+        "q-dmg302-03",
+        "q-dmg302-04"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO2",
+      "text": "يصوغ متطلبات قابلة للاختبار، لكل منها التزام واحد ومالك ودليل على الامتثال، استنادًا إلى خمس عشرة عبارة مبهمة من السياسات",
+      "level": "Applied",
+      "slides": [
+        "day1#requirement-anatomy",
+        "day1#normative-verbs",
+        "day1#words-that-defeat-audit",
+        "day1#owners-and-evidence",
+        "day1#term-base",
+        "day1#check-rewrite",
+        "day1#debrief-1-1",
+        "day1#supervised-check",
+        "day2#circular-to-standard",
+        "day2#tools-by-class",
+        "day2#prohibited-uses",
+        "day2#human-oversight",
+        "capstone#deliverables",
+        "capstone#rubric",
+        "capstone#live-amendment"
+      ],
+      "activities": [
+        "day1#check-rewrite-q1"
+      ],
+      "sessions": [
+        "day1/1",
+        "day2/1"
+      ],
+      "labs": [
+        "1.1",
+        "2.1"
+      ],
+      "questions": [
+        "q-dmg302-05",
+        "q-dmg302-06",
+        "q-dmg302-07",
+        "q-dmg302-08"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO3",
+      "text": "يعدّ مصفوفة تتبع من الأنظمة والسياسات الخارجية إلى المتطلبات الداخلية، استنادًا إلى مقتطفات من نظام للخصوصية وسياسة للتصنيف ومبادئ لأخلاقيات الذكاء الاصطناعي",
+      "level": "Applied",
+      "slides": [
+        "day1#reading-obligations",
+        "day1#matrix-two-directions",
+        "day1#coverage",
+        "day1#verify-citations",
+        "day1#orphan-decisions",
+        "day1#catalogue-fields",
+        "day1#oscal",
+        "day1#check-trace",
+        "day1#debrief-1-2",
+        "day2#review-day1",
+        "capstone#deliverables",
+        "capstone#rubric"
+      ],
+      "activities": [
+        "day1#check-trace-q1",
+        "day2#review-day1-q1"
+      ],
+      "sessions": [
+        "day1/2"
+      ],
+      "labs": [
+        "1.2"
+      ],
+      "questions": [
+        "q-dmg302-09",
+        "q-dmg302-10",
+        "q-dmg302-11",
+        "q-dmg302-12"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO4",
+      "text": "يصمم عملية للاستثناءات والمراجعة تتضمن معايير ومدة صلاحية وضوابط تعويضية وموجبات للمراجعة، استنادًا إلى ثلاثة طلبات استثناء وتغيير نظامي واحد",
+      "level": "Performance",
+      "slides": [
+        "day2#exceptions-what",
+        "day2#exception-anatomy",
+        "day2#segregation",
+        "day2#review-triggers",
+        "day2#check-exceptions",
+        "day2#debrief-2-2",
+        "capstone#deliverables",
+        "capstone#live-amendment"
+      ],
+      "activities": [
+        "day2#check-exceptions-q1"
+      ],
+      "sessions": [
+        "day2/2"
+      ],
+      "labs": [
+        "2.2"
+      ],
+      "questions": [
+        "q-dmg302-16",
+        "q-dmg302-17",
+        "q-dmg302-18",
+        "q-dmg302-19"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO5",
+      "text": "يقود التشاور على معيار لاستخدام الذكاء الاصطناعي التوليدي ويدافع عن النص المنقح، في سيناريو أدوار يقدم فيه ممثلو الشؤون القانونية والأمن والأعمال والعاملين ملاحظاتهم",
+      "level": "Performance",
+      "slides": [
+        "day2#national-floor",
+        "day2#drafting-with-assistant",
+        "day2#invented-references",
+        "day2#source-check-log",
+        "day2#check-ai",
+        "day2#debrief-2-1",
+        "day2#consultation-round",
+        "day2#dispositions",
+        "day2#comment-log",
+        "capstone#deliverables",
+        "capstone#rubric",
+        "capstone#how-it-runs",
+        "capstone#what-next"
+      ],
+      "activities": [
+        "day2#check-ai-q1"
+      ],
+      "sessions": [
+        "day2/1",
+        "day2/2"
+      ],
+      "labs": [
+        "2.1",
+        "2.2"
+      ],
+      "questions": [
+        "q-dmg302-13",
+        "q-dmg302-14",
+        "q-dmg302-15",
+        "q-dmg302-20",
+        "q-dmg302-21"
+      ],
+      "covered": true
+    }
+  ]
+}
