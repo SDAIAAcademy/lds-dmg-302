@@ -129,7 +129,7 @@ lab('2.1', () => {
   for (const r of log) assert.equal((draft.match(new RegExp('\\[' + r.ref_id + '\\]', 'g')) || []).length, 1, r.ref_id + ' once in the draft');
   // the facts behind the verdicts are in the pack
   assert.ok(pack.includes('ثلاث وأربعون مادة'), 'article count in the pack');
-  assert.ok(!pack.includes('P120'), 'no P120 in the pack');
+  assert.ok(!pack.includes('3.9'), 'no clause 3.9 in the pack');
   assert.ok(pack.includes('من DG.1 إلى DG.8'), 'DG range in the pack');
   assert.ok(pack.includes('مقيد فأعلى') && pack.includes('بيانات «عامة»'), 'guideline words in the pack');
   assert.ok(!pack.includes('مهما كانت استضافة'), 'the misattributed words are not in the pack');
